@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import itens from './fotos.json';
 
-export default function Cards({ style }) {
+export default function Cards({itens, style }) {
   return (
     <ul className={style.galeria__cards}>
       {itens.map((item) => {
